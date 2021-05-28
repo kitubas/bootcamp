@@ -16,7 +16,6 @@ public class BootcampApplication {
 	public static void main(String[] args)
 	{
 		SpringApplication.run(BootcampApplication.class, args);
-			System.out.println("Hello World");
 	}
 	@Bean
 	public static OpenAPI customOpenAPI(@Value("${application.description}") String description) {
